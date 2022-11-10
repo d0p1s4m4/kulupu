@@ -1,0 +1,6 @@
+(executable
+ (public_name kulupu)
+ (name main)
+ (preprocess
+  (pps lwt_ppx ppx_yojson_conv))
+ (libraries dream yojson uri))
